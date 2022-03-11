@@ -2,29 +2,32 @@ baseURL = 'https://sa-mcquanzie.github.io/'
 languageCode = 'en-gb'
 title = 'Learnings and Unlearnings'
 
-[Params.Terminal]
-  scheme = "WarmNeon"
-  theme = 'hugo-theme-shell'
-  description = """
-  Things I learnt and unlearnt and think and did and dislike
-  """
-  userName = "mcquanzie"
-  pcName = "work_laptop"
-  workDir = "learnings_and_unlearnings"
-  profile = "intro"
-  ps1Delay = 0
-  stdoutDelay = 2
-  commandDelay = 50
-  titleDelay = 0
-  contentDelay = 0
+[Params]
+  description = "S.A. McQuanzie's Blog"
+  
+  [Params.Terminal]
+    scheme = "WarmNeon"
+    theme = 'hugo-theme-shell'
+    description = """
+    Things I learnt and unlearnt and think and did and dislike
+    """
+    userName = "mcquanzie"
+    pcName = "work_laptop"
+    workDir = "learnings_and_unlearnings"
+    profile = "intro"
+    ps1Delay = 0
+    stdoutDelay = 2
+    commandDelay = 50
+    titleDelay = 0
+    contentDelay = 0
 
-[Params.Tree]
-  use = true
-  folderName = "sections"
-  files = [ 
-    ["whoami", "/whoami"],
-    ["posts", "/posts"],
-    ["projects", "/projects"],
-    ["grievances", "/grievances"],
-    ["yes", "/yes"]
-  ]
+  [Params.Tree]
+    use = true
+    folderName = "sections"
+    files = [ 
+      ["whoami", "/whoami"],
+      ["posts", "/posts"],
+      ["projects", "/projects"],
+      ["grievances", "/grievances"],
+      ["yes", "/yes"]
+    ]
