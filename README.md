@@ -1,2 +1,3 @@
 # mcquanzie.github.io
-Learnings and unlearnings
+### Learnings and unlearnings
+Deployed to: [mcquanzie.github.io](https://mcquanzie.github.io)
