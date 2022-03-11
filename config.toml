@@ -1,4 +1,4 @@
-baseURL = 'https://mcquanzie.github.io/'
+baseURL = 'https://sa-mcquanzie.github.io/'
 languageCode = 'en-gb'
 title = 'Learnings and Unlearnings'
 theme = 'hugo-theme-shell'
